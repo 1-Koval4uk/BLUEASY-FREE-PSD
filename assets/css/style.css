@@ -356,6 +356,12 @@ footer {
     .twitter-content__text strong {
       font-weight: bolder; }
 
+.fa-tw {
+  transition: 0.35s; }
+
+.fa-tw:hover {
+  transform: rotate(360deg); }
+
 @media screen and (max-width: 625px) {
   .twitter-content {
     text-align: center; }
@@ -551,12 +557,6 @@ footer {
     color: #4bcaff;
     font-family: 'Segoe-b';
     margin-top: 25px; }
-
-.fa-twitter {
-  transition: 0.35s; }
-
-.fa-twitter:hover {
-  transform: rotate(360deg); }
 
 @media screen and (max-width: 625px) {
   .testimonials-content {
