@@ -11,14 +11,14 @@
 <body>
     <header class="header">
         <div class="content header-content">
-            <a href="#"><img src="assets/img/logo/blueasy-logo.png" class="logo-img"></a>
-            <nav class="header-nav">
+            <a href="#"><img src="assets/img/logo/blueasy-logo.png" alt="logo" class="logo-img"></a>
+            <ul class="header-nav">
                 <li class="header-nav__list"><a href="#home" class="header-nav__link active home">home</a></li>
                 <li class="header-nav__list"><a href="#services" class="header-nav__link serv ">services</a></li>
                 <li class="header-nav__list"><a href="#portfolio" class="header-nav__link portf">portfolio</a></li>
                 <li class="header-nav__list"><a href="#features" class="header-nav__link feat">features</a></li>
-                <li class="header-nav__list"><a href="" class="header-nav__link cont">contact</a></li>
-            </nav>
+                <li class="header-nav__list"><a href="#contact" class="header-nav__link cont">contact</a></li>
+            </ul>
         </div>
     </header>
     <section class="hero" id="home">
@@ -59,11 +59,11 @@
             <div class="portfolio-nav-wrap">
                 <h2 class="portfolio-title">portfolio</h2>
                 <ul class="portfolio-nav">
-                    <li class="portfolio-nav__list "><p href="#" data-filter='all' class="filter-button portfolio-nav__btn">All</p></li>
-                    <li class="portfolio-nav__list "><p href="#" data-filter='panoramas' class="filter-button portfolio-nav__btn">Panoramas</p></li>
-                    <li class="portfolio-nav__list "><p href="#" data-filter='portraits' class="filter-button portfolio-nav__btn">portraits</p></li>
-                    <li class="portfolio-nav__list "><p href="#" data-filter='macro' class="filter-button portfolio-nav__btn">macro</p></li>
-                    <li class="portfolio-nav__list "><p href="#" data-filter='journal' class="filter-button portfolio-nav__btn">journal</p></li>
+                    <li class="portfolio-nav__list "><p data-filter='all' class="filter-button portfolio-nav__btn">All</p></li>
+                    <li class="portfolio-nav__list "><p data-filter='panoramas' class="filter-button portfolio-nav__btn">Panoramas</p></li>
+                    <li class="portfolio-nav__list "><p data-filter='portraits' class="filter-button portfolio-nav__btn">portraits</p></li>
+                    <li class="portfolio-nav__list "><p data-filter='macro' class="filter-button portfolio-nav__btn">macro</p></li>
+                    <li class="portfolio-nav__list "><p data-filter='journal' class="filter-button portfolio-nav__btn">journal</p></li>
                 </ul>
             </div>
             <div class="tabs-wrap">
@@ -71,7 +71,7 @@
                 <div class="portfolio-tab filter panoramas"><img src="assets/img/tabs-background/bridge.png" alt="bridge" class="portfolio-tab__img"></div>
                 <div class="portfolio-tab filter journal"><img src="assets/img/tabs-background/sky.png" alt="ske" class="portfolio-tab__img"></div>
                 <div class="portfolio-tab filter portraits"><img src="assets/img/tabs-background/lake.png" alt="lake" class="portfolio-tab__img"></div>
-                <div class="portfolio-tab filter panoramas"><img src="assets/img/tabs-background/_ portfolio photo.png" alt="" class="portfolio-tab__img"></div>
+                <div class="portfolio-tab filter panoramas"><img src="assets/img/tabs-background/house.png" alt="" class="portfolio-tab__img"></div>
                 <div class="portfolio-tab filter journal"><img src="assets/img/tabs-background/surfer.png" alt="house" class="portfolio-tab__img"></div>
                 <div class="portfolio-tab filter macro"><img src="assets/img/tabs-background/mountains.png" alt="mountain" class="portfolio-tab__img"></div>
                 <div class="portfolio-tab filter portraits"><img src="assets/img/tabs-background/mountains2.png" alt="mountains" class="portfolio-tab__img"></div>
@@ -126,6 +126,37 @@
             </div>
             <p class="testimonials-content__text">Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon cheesecake jelly. Gingerbread cookie soufflé sweet roll sweet roll jelly-o.</p>
             <span>-Walter White</span>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="content contact-content">
+            <h2 class="contact-content__title">Contact</h2>
+            <form class="contact-form">
+                <div class="contact-form__top">
+                    <div class="contact-form__inputs">
+                        <div class="contact-form__input">
+                            <label  class="contact-form__label">full name</label>
+                            <input type="text" class="contact-form__inpt">
+                        </div>
+                        <div class="contact-form__input">
+                            <label  class="contact-form__label">email</label>
+                            <input type="text" class="contact-form__inpt">
+                        </div>
+                    </div>
+                    <div class="contact-form__adresses">
+                        <p class="contact-form__adress">Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.</p>
+                        <p class="contact-form__adress">Linda Newman<br>
+                            W325 State Road 123<br>
+                            Mondovi, WI(Wisconsin) 98746-54321<br>
+                            (715) 946 - 1234<br></p>
+                    </div>
+                </div>
+                <div class="contact-form__bot">
+                    <label class="contact-form__label">message</label>
+                    <textarea  cols="30" rows="10" class="contact-form__mess"></textarea>
+                    <button class="contact-form__button">message</button>
+                </div>
+            </form>
         </div>
     </section>
 <script src="assets/libs/jquery-3.5.1.min.js"></script>

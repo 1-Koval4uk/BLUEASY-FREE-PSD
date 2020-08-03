@@ -37,6 +37,15 @@ $(window).scroll(function(){
         $('.feat').removeClass('active');
     }
 });
+$(window).scroll(function(){
+    let wScroll = $(this).scrollTop();
+    if (wScroll > 3400) {
+        $('.feat').removeClass('active');
+        $('.cont').addClass('active');
+    }else{
+        $('.cont').removeClass('active');
+    }
+});
 
 
 $('.filter-button').click(function(){
